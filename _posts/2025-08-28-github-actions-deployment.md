@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Building Automated Deployment Workflows with GitHub Actions"
-date:   2025-08-28 12:00:00 +0000
+title: "Building Automated Deployment Workflows with GitHub Actions"
+date: 2025-08-28 12:00:00 +0000
 categories: devops automation
 ---
 
@@ -10,6 +10,7 @@ In this post, I'll walk through creating an automated deployment workflow using 
 ## The Challenge
 
 Manual deployments are error-prone and time-consuming. We need an automated system that:
+
 - Only deploys when specific files change
 - Ensures consistent deployment process
 - Provides visibility into deployment status
@@ -26,9 +27,9 @@ on:
     branches:
       - main
     paths:
-      - 'index.md'
-      - '_posts/**'
-      - '_config.yml'
+      - "index.md"
+      - "_posts/**"
+      - "_config.yml"
 
 jobs:
   deploy:
@@ -43,7 +44,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: "3.1"
           bundler-cache: true
 
       - name: Build with Jekyll
@@ -62,7 +63,7 @@ jobs:
 ## Benefits
 
 - **Automated**: No manual intervention required
-- **Selective**: Only triggers on relevant file changes  
+- **Selective**: Only triggers on relevant file changes
 - **Fast**: Quick feedback and deployment
 - **Reliable**: Consistent process every time
 

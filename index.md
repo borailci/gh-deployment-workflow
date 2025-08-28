@@ -10,7 +10,7 @@ I'm a DevOps Engineer passionate about automation, cloud infrastructure, and con
 ## Featured Projects
 
 - **GitHub Actions Deployment Workflow** - Automated deployment pipeline using GitHub Actions
-- **Log Archive Tool** - Automated log management and archival system  
+- **Log Archive Tool** - Automated log management and archival system
 - **Nginx Log Analyzer** - Performance monitoring and log analysis
 - **Server Performance Stats** - System monitoring and metrics collection
 - **Go Task Tracker** - Command-line task management application
