@@ -16,6 +16,10 @@ bundle exec jekyll serve
 - Responsive DevOps portfolio design
 - Blog functionality
 
+## Live Website
+
+**Portfolio Site**: https://borailci.github.io/gh-deployment-workflow/
+
 ## Project URL
 
 https://roadmap.sh/projects/github-actions-deployment-workflow
